@@ -1,13 +1,18 @@
 class HomeController < ApplicationController
 	def index
-		# @title = "Home"
+		@title = "Home"
 	end
-
 
 	def contact
-		# @title = "Contact"
+		@title = "Contact"
+	end
+
+	def join
+		@title = "Join"
 	end
 end
+
+
 
 # def alternate
 	# 	@id = params[:id]
