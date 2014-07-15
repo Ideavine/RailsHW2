@@ -14,8 +14,7 @@ Rails.application.routes.draw do
  	get '/error' => "user#contact", as: :error
 end
 
-#where do i put this? 
-# link_to “Our Homepage”, home_path
+
 
 
 
