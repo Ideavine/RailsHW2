@@ -12,7 +12,6 @@ class HomeController < ApplicationController
 	end
 
 	def logo
-		@logo = image_tag("logo.png", :alt => "My App", :class => "round")
 	end
 
 	def header

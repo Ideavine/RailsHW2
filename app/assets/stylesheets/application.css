@@ -13,6 +13,42 @@
  *= require_tree .
  *= require_self
  */
+.header
+{
+font-family: courier;
+text-align:center;
+border-bottom-style: dashed;
+img.resize{
+    width:250px; /* you can use % */
+    height: auto;
+}
+}
+
+}
+
+/*This is my navigation */
+ul.nav 
+{
+list-style-type:none;
+float: left;
+font-family: courier;
+line-height: 20px;
+display: inline-block;
+background-color: #FF8600;
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+}
+
+li.nav
+{
+float:left;
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+display: inline-block;
+}
+
 body
 {
 background-image:url('assets/Cosmos05.gif');
